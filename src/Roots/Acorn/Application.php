@@ -83,7 +83,7 @@ class Application extends FoundationApplication
             ->withCommands()
             ->withProviders()
             ->withMiddleware()
-            ->useRouting()
+            ->withRouting()
             ->withExceptions();
     }
 
